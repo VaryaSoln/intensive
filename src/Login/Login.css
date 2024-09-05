@@ -1,0 +1,35 @@
+.contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 100vh;
+    background-image: url("background.jpg") ;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 250px;
+    height: 170px;
+    border: 3px solid rgb(246, 248, 249);
+    background-color: rgb(128, 185, 235);
+
+}
+
+.form__button{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: rgb(214, 232, 248);;
+
+}
+.form__button-contaner{
+    display: flex;
+    justify-content: center;
+}
+
+.form__label{
+    padding: 10px 0px ;
+}
